@@ -1,0 +1,66 @@
+
+
+body { font-family: 'Muli', sans-serif; }
+
+.banner {
+  display: table;
+  width: 100%;
+  background-image: url("https://s18.postimg.org/qsftikgfd/hero3.png");
+  background-size: cover;
+  background-position: center center;
+  @include desktop {
+  }
+}
+
+.banner--full {
+  height:100vh;
+  @include desktop {
+
+  }
+}
+
+.banner h1 {
+  padding-left: 40%;
+  color:#fff;
+  font-size:4rem;
+  line-height:0.5;
+  @include desktop {
+  font-size: 7rem;
+  line-height: 1.1;
+  font-family: 'Muli', sans-serif;
+     text-align: center;
+  }
+
+}
+
+.banner .content {
+  display: table-cell;
+    vertical-align: middle;
+  padding:2rem;
+  @include desktop {
+    padding: 8rem;
+       text-align: center;
+  }
+
+}
+
+.banner h2 {
+  font-size: 1.5rem;
+  max-width: 500px;
+  line-height: 1em;
+  padding-left: 34%;
+  color: #eee;
+font-family: 'Muli', sans-serif;
+   text-align: center;
+ }
+
+ .banner p {
+   font-size: 0.5rem;
+   max-width: 700px;
+   line-height: 4em;
+   padding-left: 26%;
+   color: #eee;
+   font-family: 'Muli', sans-serif;
+   padding-top: 2%;
+   text-align: center;
+  }

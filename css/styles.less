@@ -1,0 +1,42 @@
+.banner {
+    background: url(https://images.unsplash.com/photo-1465479423260-c4afc24172c6?dpr=2&auto=format&crop=entropy&fit=crop&w=1500&h=1001&q=80) no-repeat center bottom;
+    color: #fff;
+    display: flex;
+    background-size: cover;
+}
+
+.banner__text {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+    padding: 35vw 0 50px;
+
+}
+
+.banner__text h1 {
+    text-align: center;
+    font-size: 10vw;
+    text-transform: uppercase;
+    line-height: 1em;
+    margin: 0;
+    text-shadow: 5px 5px 0px $primary-color;
+}
+
+.banner__text h3 {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-weight: normal;
+}
+
+.button--hollow {
+    background: transparent;
+    border: 1px solid $primary-color;
+    color: $primary-color;
+    padding: 10px;
+    &:hover {
+        color: $secondary-color;
+        border-color: $secondary-color;
+        background: $white;
+    }
+}
