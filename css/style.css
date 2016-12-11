@@ -64,3 +64,10 @@ font-family: 'Muli', sans-serif;
    padding-top: 2%;
    text-align: center;
   }
+
+  @media only screen and (min-width: 400px) {
+      p {
+        width: 1000px;
+
+
+      }
